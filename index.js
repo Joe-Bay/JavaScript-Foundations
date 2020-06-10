@@ -62,7 +62,7 @@ If your name is `Oscar` mortgageCalculator() should return "Oscar, your monthly 
 */
 
 function mortgageCalculator(){
-    console.log(name + "," + " your monthly rate is " + monthlyRate.toFixed(2));
+    console.log(`${name}, your monthly rate is  ${monthlyRate.toFixed(2)}`);
 }
 mortgageCalculator();
 
@@ -104,7 +104,7 @@ function mortgageCalculator(P, I, N, creditScore){
     }
     console.log(name + "," + " your monthly rate is " + monthlyRate.toFixed(2));
 }
-mortgageCalculator(200000, 0.05, 30, 650);
+mortgageCalculator(200000, 0.05, 30, 750);
 
 
 
